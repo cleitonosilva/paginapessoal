@@ -1,0 +1,19 @@
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer #drawer class="example-sidenav" mode="side">
+    <p>Contato</p>
+    <p>Carreira</p>
+    <p>Projetos</p>
+    <p>Academico</p>
+    <p>Sobre</p>
+    <p (click)="drawer.toggle()">Voltar</p>
+
+
+  </mat-drawer>
+
+  <div class="example-sidenav-content">
+    <p type="button" mat-button (click)="drawer.toggle()">
+      Menu
+    </p>
+  </div>
+
+</mat-drawer-container>
